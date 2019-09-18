@@ -1,9 +1,5 @@
 import styled from 'styled-components/native';
 
-export const Container = styled.View`
-flex: 1;
-`;
-
 export const BoxSearch = styled.View`
 flex-direction: row;
 justify-content: center;
@@ -22,14 +18,3 @@ export const CamButton = styled.TouchableOpacity`
 background-color: #0079a1;
 padding: 10px;
 `;
-
-export const DetailProduct = styled.View`
-flex: 1;
-padding: 15px;
-`;
-
-export const Title = styled.Text``;
-export const StockQtt = styled.Text``;
-export const LastPrice = styled.Text``;
-export const GoodsReceipt = styled.Text``;
-export const GoodsIssue = styled.Text``;
